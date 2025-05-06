@@ -1,0 +1,926 @@
+[
+  {
+    "index":0,
+    "isFinished":true,
+    "page_config":{
+      "xmlpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-37-49.xml",
+      "imgpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-37-49.png",
+      "jsonpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-37-49.json",
+      "appActivity":"jacoco.MainActivity",
+      "appPackage":"app.varlorg.unote"
+    },
+    "out_edges":[
+      0,
+      1,
+      2,
+      3
+    ],
+    "in_edges":[
+      5,
+      9,
+      10,
+      13,
+      16,
+      17
+    ],
+    "page_overview":"This login page is designed to authenticate users by allowing them to enter their credentials. It features distinct input fields for the username and password, a prominent login button to submit the credentials, and a 'Forgot Password' link to assist users in recovering their account access. These interactive elements are integral to the authentication process, ensuring that users can securely log in and access their personalized dashboard.",
+    "functional_modules":[
+      {
+        "module_name":"Action Bar Module",
+        "bounds":"[0, 56][1200, 168]",
+        "index":0,
+        "interactive_elements":[
+          "0-0-0-0-1-0",
+          "0-0-0-0-1-1",
+          "0-0-0-0-1-2",
+          "0-0-0-0-1-3"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on the Add Note button",
+            "Verify that the Add Note functionality is triggered",
+            "Click on the Search button",
+            "Verify that the Search functionality is triggered",
+            "Click on the Select Mode button",
+            "Verify that the Select Mode functionality is triggered",
+            "Click on the Settings button",
+            "Verify that the Settings functionality is triggered"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      },
+      {
+        "module_name":"Main Content Module",
+        "bounds":"[0, 168][1200, 1920]",
+        "index":1,
+        "interactive_elements":[
+          "0-0-1-0-2-0",
+          "0-0-1-0-2-1",
+          "0-0-1-0-2-2"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on the ADD NOTE button",
+            "Verify that the Add Note functionality is triggered",
+            "Click on the SEARCH button",
+            "Verify that the Search functionality is triggered",
+            "Click on the QUIT button",
+            "Verify that the Quit functionality is triggered"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      }
+    ],
+    "representative_ui_elements":{
+      "Title":[
+        {
+          "bounds":"[42,88][141,135]",
+          "index":"0-0-0-0-0",
+          "text":"uNote",
+          "class":"TextView"
+        }
+      ],
+      "Primary_Action_Button":[
+        {
+          "bounds":"[0,1836][400,1920]",
+          "index":"0-0-1-0-2-0",
+          "clickable":"true",
+          "text":"ADD NOTE",
+          "resource-id":"app.varlorg.unote:id/addNoteButton",
+          "class":"Button"
+        },
+        {
+          "bounds":"[400,1836][800,1920]",
+          "index":"0-0-1-0-2-1",
+          "clickable":"true",
+          "text":"SEARCH",
+          "resource-id":"app.varlorg.unote:id/returnSearch",
+          "class":"Button"
+        },
+        {
+          "bounds":"[800,1836][1200,1920]",
+          "index":"0-0-1-0-2-2",
+          "clickable":"true",
+          "text":"QUIT",
+          "resource-id":"app.varlorg.unote:id/returnButton",
+          "class":"Button"
+        }
+      ],
+      "Fixed_Layout_Components":[
+        {
+          "bounds":"[0,56][1200,168]",
+          "index":"0-0-0",
+          "resource-id":"android:id/action_bar_container",
+          "class":"FrameLayout"
+        },
+        {
+          "bounds":"[0,168][1200,1920]",
+          "index":"0-0-1",
+          "resource-id":"android:id/content",
+          "class":"FrameLayout"
+        }
+      ]
+    }
+  },
+  {
+    "index":1,
+    "isFinished":true,
+    "page_config":{
+      "xmlpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-38-13.xml",
+      "imgpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-38-13.png",
+      "jsonpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-38-13.json",
+      "appActivity":".NoteEdition",
+      "appPackage":"app.varlorg.unote"
+    },
+    "out_edges":[
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "in_edges":[
+      0,
+      2,
+      12,
+      14
+    ],
+    "page_overview":"This login page is designed to authenticate users by allowing them to enter their credentials. It features distinct input fields for the username and password, a prominent login button to submit the credentials, and a 'Forgot Password' link to assist users in recovering their account access. These interactive elements are integral to the authentication process, ensuring that users can securely log in and access their personalized dashboard.",
+    "functional_modules":[
+      {
+        "module_name":"Note Edition Module",
+        "bounds":"[0, 168][1200, 1305]",
+        "index":0,
+        "interactive_elements":[
+          "0-0-1-0-2",
+          "0-0-1-0-5",
+          "0-0-1-0-6-0",
+          "0-0-1-0-6-1"
+        ],
+        "test_plan":{
+          "type":"Other",
+          "steps":[
+            "Enter text in the 'Note's Title' field",
+            "Enter text in the 'Your Note' field",
+            "Click on the SAVE button",
+            "Verify that the note is saved successfully",
+            "Click on the RETURN button",
+            "Verify that the user is returned to the previous screen"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[
+          "others"
+        ]
+      },
+      {
+        "module_name":"Action Bar Module",
+        "bounds":"[0, 56][1200, 168]",
+        "index":1,
+        "interactive_elements":[
+          "0-0-0-0-1-0",
+          "0-0-0-0-1-1",
+          "0-0-0-0-1-2",
+          "0-0-0-0-1-3",
+          "0-0-0-0-1-4"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on the action_search button",
+            "Verify the search functionality",
+            "Click on the action_save button",
+            "Verify the save functionality",
+            "Click on the action_switch_mode button",
+            "Verify the mode switch functionality",
+            "Click on the action_delete button",
+            "Verify the delete functionality",
+            "Click on the more options button",
+            "Verify the additional options available"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      }
+    ],
+    "representative_ui_elements":{
+      "Title":[
+        {
+          "bounds":"[42,88][141,135]",
+          "index":"0-0-0-0-0",
+          "text":"uNote",
+          "class":"TextView"
+        },
+        {
+          "bounds":"[0,168][65,211]",
+          "index":"0-0-1-0-0",
+          "text":"Title",
+          "resource-id":"app.varlorg.unote:id/TitreNote",
+          "class":"TextView"
+        },
+        {
+          "bounds":"[0,284][109,328]",
+          "index":"0-0-1-0-3",
+          "text":"Note ✍︎",
+          "resource-id":"app.varlorg.unote:id/NoteEditionTitre",
+          "class":"TextView"
+        }
+      ],
+      "Primary_Action_Button":[
+        {
+          "bounds":"[0,1221][600,1305]",
+          "index":"0-0-1-0-6-0",
+          "clickable":"true",
+          "text":"SAVE",
+          "resource-id":"app.varlorg.unote:id/ButtonSave",
+          "class":"Button"
+        },
+        {
+          "bounds":"[600,1221][1200,1305]",
+          "index":"0-0-1-0-6-1",
+          "clickable":"true",
+          "text":"RETURN",
+          "resource-id":"app.varlorg.unote:id/ButtonQuit",
+          "class":"Button"
+        }
+      ],
+      "Fixed_Layout_Components":[
+        {
+          "bounds":"[779,56][1186,168]",
+          "index":"0-0-0-0-1",
+          "class":"LinearLayout"
+        }
+      ]
+    }
+  },
+  {
+    "index":2,
+    "isFinished":true,
+    "page_config":{
+      "xmlpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-38-50.xml",
+      "imgpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-38-50.png",
+      "jsonpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-38-50.json",
+      "appActivity":".Preference",
+      "appPackage":"app.varlorg.unote"
+    },
+    "out_edges":[ ],
+    "in_edges":[
+      1
+    ],
+    "page_overview":"This preferences page allows users to customize their note-taking experience. It features various options such as search settings, display preferences, and sorting options. Each interactive element is designed to enhance user interaction with the app, ensuring a tailored experience for managing notes.",
+    "functional_modules":[
+      {
+        "module_name":"Search Options Module",
+        "bounds":"[0, 168][1200, 230]",
+        "index":0,
+        "interactive_elements":[
+          "0-0-1-0-0-0-0-0-0",
+          "0-0-1-0-0-0-0-0-1",
+          "0-0-1-0-0-0-0-0-2"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on 'Search in content'",
+            "Verify the search functionality",
+            "Click on 'Case sensitive research'",
+            "Verify the case sensitivity option",
+            "Click on 'Display search options'",
+            "Verify the display options"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      },
+      {
+        "module_name":"Display Options Module",
+        "bounds":"[0, 458][1200, 552]",
+        "index":1,
+        "interactive_elements":[
+          "0-0-1-0-0-0-0-3-0",
+          "0-0-1-0-0-0-0-3-1"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on 'Display search options'",
+            "Verify the display options functionality",
+            "Click on the checkbox for 'Display search options'",
+            "Verify the checkbox state"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      },
+      {
+        "module_name":"Theme Options Module",
+        "bounds":"[0, 1166][1200, 1294]",
+        "index":2,
+        "interactive_elements":[
+          "0-0-1-0-0-0-0-10-0",
+          "0-0-1-0-0-0-0-10-1"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on 'Light theme'",
+            "Verify the light theme functionality",
+            "Click on the checkbox for 'Light theme'",
+            "Verify the checkbox state"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      },
+      {
+        "module_name":"Sorting Options Module",
+        "bounds":"[0, 1714][1200, 1808]",
+        "index":3,
+        "interactive_elements":[
+          "0-0-1-0-0-0-0-15-0",
+          "0-0-1-0-0-0-0-15-1"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on 'Descending sort'",
+            "Verify the sorting functionality",
+            "Click on the checkbox for 'Descending sort'",
+            "Verify the checkbox state"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      },
+      {
+        "module_name":"Notification Options Module",
+        "bounds":"[0, 1810][1200, 1904]",
+        "index":4,
+        "interactive_elements":[
+          "0-0-1-0-0-0-0-16-0",
+          "0-0-1-0-0-0-0-16-1"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on 'Display notifications'",
+            "Verify the notifications functionality",
+            "Click on the checkbox for 'Display notifications'",
+            "Verify the checkbox state"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      }
+    ],
+    "representative_ui_elements":{
+      "Title":[
+        {
+          "bounds":"[42,88][235,135]",
+          "index":"0-0-0-0-0",
+          "text":"Preferences",
+          "class":"TextView"
+        }
+      ],
+      "Primary_Action_Button":[ ],
+      "Fixed_Layout_Components":[
+        {
+          "bounds":"[0,0][1200,56]",
+          "index":"0-1",
+          "resource-id":"android:id/statusBarBackground",
+          "class":"View"
+        }
+      ]
+    }
+  },
+  {
+    "index":3,
+    "isFinished":true,
+    "page_config":{
+      "xmlpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-41-59.xml",
+      "imgpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-41-59.png",
+      "jsonpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-41-59.json",
+      "appActivity":".NoteEdition",
+      "appPackage":"app.varlorg.unote"
+    },
+    "out_edges":[ ],
+    "in_edges":[
+      4
+    ],
+    "page_overview":"This login page is designed to authenticate users by allowing them to enter their credentials. It features distinct input fields for the username and password, a prominent login button to submit the credentials, and a 'Forgot Password' link to assist users in recovering their account access. These interactive elements are integral to the authentication process, ensuring that users can securely log in and access their personalized dashboard.",
+    "functional_modules":[
+      {
+        "module_name":"Note Edition Module",
+        "bounds":"[0,168][1200,1920]",
+        "index":0,
+        "interactive_elements":[
+          "0-0-1-0-0-0",
+          "0-0-1-0-3",
+          "0-0-1-0-6",
+          "0-0-1-0-7-0",
+          "0-0-1-0-7-1"
+        ],
+        "test_plan":{
+          "type":"Other",
+          "steps":[
+            "Fill in the 'Note's Title' field",
+            "Fill in the 'Your Note' field",
+            "Click on the SAVE button",
+            "Verify that the note is saved successfully",
+            "Click on the RETURN button to go back"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[
+          "others"
+        ]
+      },
+      {
+        "module_name":"Search Module",
+        "bounds":"[0,168][1200,260]",
+        "index":1,
+        "interactive_elements":[
+          "0-0-1-0-0-0"
+        ],
+        "test_plan":{
+          "type":"Random Click",
+          "steps":[
+            "Click on the search field",
+            "Enter a search term",
+            "Verify that the search results are displayed"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      }
+    ],
+    "representative_ui_elements":{
+      "Title":[
+        {
+          "bounds":"[42,88][141,135]",
+          "index":"0-0-0-0-0",
+          "text":"uNote",
+          "class":"TextView"
+        },
+        {
+          "bounds":"[0,260][65,303]",
+          "index":"0-0-1-0-1",
+          "text":"Title",
+          "resource-id":"app.varlorg.unote:id/TitreNote",
+          "class":"TextView"
+        },
+        {
+          "bounds":"[0,376][109,420]",
+          "index":"0-0-1-0-4",
+          "text":"Note ✍︎",
+          "resource-id":"app.varlorg.unote:id/NoteEditionTitre",
+          "class":"TextView"
+        }
+      ],
+      "Primary_Action_Button":[
+        {
+          "bounds":"[0,1836][600,1920]",
+          "index":"0-0-1-0-7-0",
+          "clickable":"true",
+          "text":"SAVE",
+          "resource-id":"app.varlorg.unote:id/ButtonSave",
+          "class":"Button"
+        },
+        {
+          "bounds":"[600,1836][1200,1920]",
+          "index":"0-0-1-0-7-1",
+          "clickable":"true",
+          "text":"RETURN",
+          "resource-id":"app.varlorg.unote:id/ButtonQuit",
+          "class":"Button"
+        }
+      ],
+      "Fixed_Layout_Components":[
+        {
+          "bounds":"[779,56][1186,168]",
+          "index":"0-0-0-0-1",
+          "class":"LinearLayout"
+        },
+        {
+          "bounds":"[0,168][1200,1920]",
+          "index":"0-0-1",
+          "resource-id":"android:id/content",
+          "class":"FrameLayout"
+        }
+      ]
+    }
+  },
+  {
+    "index":4,
+    "isFinished":true,
+    "page_config":{
+      "xmlpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-42-44.xml",
+      "imgpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-42-44.png",
+      "jsonpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-42-44.json",
+      "appActivity":".NoteEdition",
+      "appPackage":"app.varlorg.unote"
+    },
+    "out_edges":[
+      9,
+      10,
+      11
+    ],
+    "in_edges":[
+      6
+    ],
+    "page_overview":"This login page is designed to authenticate users by allowing them to enter their credentials. It features distinct input fields for the username and password, a prominent login button to submit the credentials, and a 'Forgot Password' link to assist users in recovering their account access. These interactive elements are integral to the authentication process, ensuring that users can securely log in and access their personalized dashboard.",
+    "functional_modules":[
+      {
+        "module_name":"Note Edition Module",
+        "bounds":"[0,168][1200,1920]",
+        "index":0,
+        "interactive_elements":[
+          "0-0-1-0-0",
+          "0-0-1-0-2",
+          "0-0-1-0-3-0",
+          "0-0-1-0-3-1"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on the title text to edit",
+            "Click on the note text to edit",
+            "Click on the SAVE button to save changes",
+            "Click on the RETURN button to go back"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      },
+      {
+        "module_name":"Action Bar Module",
+        "bounds":"[0,56][1200,168]",
+        "index":1,
+        "interactive_elements":[
+          "0-0-0-0-1-0",
+          "0-0-0-0-1-1",
+          "0-0-0-0-1-2",
+          "0-0-0-0-1-3",
+          "0-0-0-0-1-4"
+        ],
+        "test_plan":{
+          "type":"Random Click",
+          "steps":[
+            "Click on the search button",
+            "Click on the save button",
+            "Click on the switch mode button",
+            "Click on the delete button",
+            "Click on the more options button"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      }
+    ],
+    "representative_ui_elements":{
+      "Title":[
+        {
+          "bounds":"[42,88][141,135]",
+          "index":"0-0-0-0-0",
+          "text":"uNote",
+          "class":"TextView"
+        },
+        {
+          "bounds":"[6,174][1194,239]",
+          "index":"0-0-1-0-0",
+          "clickable":"true",
+          "resource-id":"app.varlorg.unote:id/TitreNoteEditionTV",
+          "class":"TextView"
+        }
+      ],
+      "Primary_Action_Button":[
+        {
+          "bounds":"[0,1836][600,1920]",
+          "index":"0-0-1-0-3-0",
+          "clickable":"true",
+          "text":"SAVE",
+          "resource-id":"app.varlorg.unote:id/ButtonSave",
+          "class":"Button"
+        },
+        {
+          "bounds":"[600,1836][1200,1920]",
+          "index":"0-0-1-0-3-1",
+          "clickable":"true",
+          "text":"RETURN",
+          "resource-id":"app.varlorg.unote:id/ButtonQuit",
+          "class":"Button"
+        }
+      ],
+      "Fixed_Layout_Components":[
+        {
+          "bounds":"[0,56][1200,168]",
+          "index":"0-0-0",
+          "resource-id":"android:id/action_bar_container",
+          "class":"FrameLayout"
+        },
+        {
+          "bounds":"[0,168][1200,1920]",
+          "index":"0-0-1",
+          "resource-id":"android:id/content",
+          "class":"FrameLayout"
+        }
+      ]
+    }
+  },
+  {
+    "index":5,
+    "isFinished":true,
+    "page_config":{
+      "xmlpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-43-13.xml",
+      "imgpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-43-13.png",
+      "jsonpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-43-13.json",
+      "appActivity":".NoteEdition",
+      "appPackage":"app.varlorg.unote"
+    },
+    "out_edges":[
+      12,
+      13
+    ],
+    "in_edges":[
+      7
+    ],
+    "page_overview":"This login page is designed to authenticate users by allowing them to enter their credentials. It features distinct input fields for the username and password, a prominent login button to submit the credentials, and a 'Forgot Password' link to assist users in recovering their account access. These interactive elements are integral to the authentication process, ensuring that users can securely log in and access their personalized dashboard.",
+    "functional_modules":[
+      {
+        "module_name":"Confirmation Dialog",
+        "bounds":"[148, 845][1052, 1131]",
+        "index":0,
+        "interactive_elements":[
+          "0-0-0-0-2-0-0",
+          "0-0-0-0-2-0-1"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on the NO button",
+            "Verify that the modification is canceled",
+            "Click on the YES button",
+            "Verify that the modification is confirmed"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      }
+    ],
+    "representative_ui_elements":{
+      "Title":[
+        {
+          "bounds":"[190,877][1010,924]",
+          "index":"0-0-0-0-0-0-0",
+          "text":"Cancel modification",
+          "resource-id":"android:id/alertTitle",
+          "class":"TextView"
+        }
+      ],
+      "Primary_Action_Button":[
+        {
+          "bounds":"[807,1029][919,1124]",
+          "index":"0-0-0-0-2-0-0",
+          "clickable":"true",
+          "text":"NO",
+          "resource-id":"android:id/button2",
+          "class":"Button"
+        },
+        {
+          "bounds":"[919,1029][1031,1124]",
+          "index":"0-0-0-0-2-0-1",
+          "clickable":"true",
+          "text":"YES",
+          "resource-id":"android:id/button1",
+          "class":"Button"
+        }
+      ],
+      "Fixed_Layout_Components":[ ]
+    }
+  },
+  {
+    "index":6,
+    "isFinished":true,
+    "page_config":{
+      "xmlpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-43-39.xml",
+      "imgpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-43-39.png",
+      "jsonpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-43-39.json",
+      "appActivity":".NoteEdition",
+      "appPackage":"app.varlorg.unote"
+    },
+    "out_edges":[
+      14,
+      15
+    ],
+    "in_edges":[
+      8
+    ],
+    "page_overview":"This login page is designed to authenticate users by allowing them to enter their credentials. It features distinct input fields for the username and password, a prominent login button to submit the credentials, and a 'Forgot Password' link to assist users in recovering their account access. These interactive elements are integral to the authentication process, ensuring that users can securely log in and access their personalized dashboard.",
+    "functional_modules":[
+      {
+        "module_name":"Options Menu",
+        "bounds":"[941,70][1179,406]",
+        "index":0,
+        "interactive_elements":[
+          "0-0-0-0",
+          "0-0-0-1",
+          "0-0-0-2",
+          "0-0-0-3"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on the Export option",
+            "Verify the export functionality",
+            "Click on the Share option",
+            "Verify the share functionality",
+            "Click on the 复制 option",
+            "Verify the copy functionality",
+            "Click on the Return option",
+            "Verify the return functionality"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[
+          "0-0-0-2",
+          "0-0-0-3"
+        ]
+      }
+    ],
+    "representative_ui_elements":{
+      "Title":[
+        {
+          "bounds":"[941,70][1179,154]",
+          "index":"0-0-0-0",
+          "class":"LinearLayout"
+        },
+        {
+          "bounds":"[941,154][1179,238]",
+          "index":"0-0-0-1",
+          "class":"LinearLayout"
+        },
+        {
+          "bounds":"[941,238][1179,322]",
+          "index":"0-0-0-2",
+          "class":"LinearLayout"
+        },
+        {
+          "bounds":"[941,322][1179,406]",
+          "index":"0-0-0-3",
+          "class":"LinearLayout"
+        }
+      ],
+      "Primary_Action_Button":[ ],
+      "Fixed_Layout_Components":[ ]
+    }
+  },
+  {
+    "index":7,
+    "isFinished":true,
+    "page_config":{
+      "xmlpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-50-08.xml",
+      "imgpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-50-08.png",
+      "jsonpath":"/Users/linbao/zju/design/chat/data/app.varlorg.unote/assets/2025-03-20-11-50-08.json",
+      "appActivity":".NoteEdition",
+      "appPackage":"app.varlorg.unote"
+    },
+    "out_edges":[
+      16,
+      17
+    ],
+    "in_edges":[
+      11
+    ],
+    "page_overview":"This login page is designed to authenticate users by allowing them to enter their credentials. It features distinct input fields for the username and password, a prominent login button to submit the credentials, and a 'Forgot Password' link to assist users in recovering their account access. These interactive elements are integral to the authentication process, ensuring that users can securely log in and access their personalized dashboard.",
+    "functional_modules":[
+      {
+        "module_name":"Search Module",
+        "bounds":"[0,168][1200,260]",
+        "index":0,
+        "interactive_elements":[
+          "0-0-1-0-0-0"
+        ],
+        "test_plan":{
+          "type":"Other",
+          "steps":[
+            "Enter text in the search field",
+            "Verify that the search results are displayed correctly"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[
+          "others"
+        ]
+      },
+      {
+        "module_name":"Title Module",
+        "bounds":"[6,266][1194,331]",
+        "index":1,
+        "interactive_elements":[
+          "0-0-1-0-1"
+        ],
+        "test_plan":{
+          "type":"Random Click",
+          "steps":[
+            "Click on the title",
+            "Verify that the title is editable"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      },
+      {
+        "module_name":"Note Content Module",
+        "bounds":"[6,347][1194,1830]",
+        "index":2,
+        "interactive_elements":[
+          "0-0-1-0-3"
+        ],
+        "test_plan":{
+          "type":"Other",
+          "steps":[
+            "Edit the note content",
+            "Verify that the changes are saved correctly"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[
+          "others"
+        ]
+      },
+      {
+        "module_name":"Edition Buttons Module",
+        "bounds":"[0,1836][1200,1920]",
+        "index":3,
+        "interactive_elements":[
+          "0-0-1-0-4-0",
+          "0-0-1-0-4-1"
+        ],
+        "test_plan":{
+          "type":"Sequential Click",
+          "steps":[
+            "Click on the SAVE button",
+            "Verify that the note is saved",
+            "Click on the RETURN button",
+            "Verify that the user is returned to the previous screen"
+          ]
+        },
+        "isFinished":true,
+        "todoList":[ ]
+      }
+    ],
+    "representative_ui_elements":{
+      "Title":[
+        {
+          "bounds":"[42,88][141,135]",
+          "index":"0-0-0-0-0",
+          "text":"uNote",
+          "class":"TextView"
+        },
+        {
+          "bounds":"[6,266][1194,331]",
+          "index":"0-0-1-0-1",
+          "clickable":"true",
+          "resource-id":"app.varlorg.unote:id/TitreNoteEditionTV",
+          "class":"TextView"
+        }
+      ],
+      "Primary_Action_Button":[
+        {
+          "bounds":"[0,1836][600,1920]",
+          "index":"0-0-1-0-4-0",
+          "clickable":"true",
+          "text":"SAVE",
+          "resource-id":"app.varlorg.unote:id/ButtonSave",
+          "class":"Button"
+        },
+        {
+          "bounds":"[600,1836][1200,1920]",
+          "index":"0-0-1-0-4-1",
+          "clickable":"true",
+          "text":"RETURN",
+          "resource-id":"app.varlorg.unote:id/ButtonQuit",
+          "class":"Button"
+        }
+      ],
+      "Fixed_Layout_Components":[
+        {
+          "bounds":"[0,56][1200,168]",
+          "index":"0-0-0",
+          "resource-id":"android:id/action_bar_container",
+          "class":"FrameLayout"
+        },
+        {
+          "bounds":"[0,168][1200,1920]",
+          "index":"0-0-1",
+          "resource-id":"android:id/content",
+          "class":"FrameLayout"
+        }
+      ]
+    }
+  }
+]

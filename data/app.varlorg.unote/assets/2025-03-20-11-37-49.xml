@@ -1,0 +1,18 @@
+<hierarchy rotation="0">
+	<node index="0" text="" resource-id="" class="android.view.View" package="gesture" 
+        content-desc="" checkable="false" checked="false" clickable="false" enabled="true" 
+        focusable="false" focused="false" scrollable="false" long-clickable="false" 
+        password="false" selected="false" visible-to-user="true" bounds="[0,1850][1200,1920]" />
+        
+	<node index="0" text="" resource-id="" class="android.widget.FrameLayout" 
+        package="com.android.systemui"       content-desc="" checkable="false" 
+        checked="false" clickable="false" enabled="true" focusable="false" 
+        focused="false" scrollable="false" long-clickable="false" password="false" 
+        selected="false" visible-to-user="true" bounds="[0,0][1200,56]">
+		
+        <node index="0" text="" 
+            resource-id="com.android.systemui:id/status_bar_launch_animation_container"     class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" 
+            checkable="false" checked="false" clickable="false" enabled="true" focusable="false" 
+            focused="false" scrollable="false" long-clickable="false" password="false" 
+            selected="false" visible-to-user="true" bounds="[0,0][1200,56]" /></node>
+</hierarchy>
